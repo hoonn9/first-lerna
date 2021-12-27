@@ -1,0 +1,26 @@
+{
+  "name": "log-cli",
+  "version": "1.0.0",
+  "description": "logging client",
+  "author": "hoonn9 <hun9935@gmail.com>",
+  "homepage": "",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "log-cli": "lib/log-cli.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^8.3.0",
+    "log-core": "^1.0.0"
+  }
+}

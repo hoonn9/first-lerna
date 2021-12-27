@@ -1,0 +1,23 @@
+{
+  "name": "log-core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "logging core",
+  "author": "hoonn9 <hun9935@gmail.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/log-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0"
+  }
+}
